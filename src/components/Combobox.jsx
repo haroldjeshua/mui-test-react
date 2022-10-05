@@ -8,8 +8,7 @@ const Combobox = () => {
 			id="combo-box-test"
 			options={top100Films}
 			sx={{ width: 300 }}
-			renderInput={(params) => <TextField {...params} label="Movie"
-			/>}
+			renderInput={(params) => <TextField {...params} label="Movie" variant="standard" />}
 			style={{ marginTop: "1rem"}}
 		/>
 	)

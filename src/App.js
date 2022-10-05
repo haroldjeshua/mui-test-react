@@ -1,15 +1,13 @@
-import { Button } from '@mui/material';
 import Combobox from './components/Combobox';
+import Buttons from './components/Buttons';
 
 function App() {
-  return (
-    <div className="container">
-        <Button variant="contained">Hello World</Button>
-        <Button variant="outlined" color="secondary">Hello World</Button>
-
-        <Combobox />
-    </div>
-  );
+	return (
+		<div className="container">
+			<Buttons />
+			<Combobox />
+		</div>
+	);
 }
 
 export default App;
