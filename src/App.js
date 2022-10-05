@@ -1,15 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 import { Button } from '@mui/material';
+import Combobox from './components/Combobox';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+        <Button variant="contained">Hello World</Button>
+        <Button variant="outlined" color="secondary">Hello World</Button>
 
-        <Button>Hello World</Button>
-      </header>
+        <Combobox />
     </div>
   );
 }
